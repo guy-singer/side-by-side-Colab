@@ -1,0 +1,14 @@
+.clbflex .codecell-input-output {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.clbflex .codecell-input-output .inputarea,
+.clbflex .codecell-input-output .output {
+	display: inline-block;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
