@@ -1,14 +1,13 @@
 {
     "name": "side-by-side Colab",
-    "version": "1.0",
-    "description": "Display Colab Block input and output in columns",
+    "description": "display Colab Block input and output in columns",
     "author": "Guy Singer",
     "permissions": ["tabs", "activeTab", "*://colab.research.google.com/*", "file:///*"],
     "web_accessible_resources": ["sidebysidecolab.css"],
     "content_scripts": [
         {
           "matches": ["*://colab.research.google.com/*", "file:///*"],
-          "js":      ["content_script.js"],
+          "js":      ["colab_columns.js"],
           "css":     ["sidebysidecolab.css"]
         }
     ],
