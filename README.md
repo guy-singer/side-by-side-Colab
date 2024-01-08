@@ -1,6 +1,9 @@
 # side-by-side-Colab
 A chrome extension for displaying output side-by-side to the code in a Google Colab notebook, as shown below:
 
+![screenshot](https://github.com/guy-singer/side-by-side-Colab/blob/main/Screenshot%202024-01-08%20at%2011.06.12.png?raw=true)
+
+
 To install this Chrome extension, follow these steps:
 1. Download the three files in this repository (the css file, javascript file, and json file), and place them into a directory somewhere on your system.
 2. Open Chrome, and go to Settings > Extensions
