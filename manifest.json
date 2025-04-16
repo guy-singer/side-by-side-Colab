@@ -14,7 +14,6 @@
           "css":     ["sidebysidecolab.css"]
         }
     ],
-    "browser_action": {},
     "manifest_version": 3,
     "version": "2025.4.16"
 }
