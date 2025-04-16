@@ -2,8 +2,11 @@
     "name": "side-by-side Colab",
     "description": "display Colab Block input and output in columns",
     "author": "Guy Singer",
-    "permissions": ["tabs", "activeTab", "*://colab.research.google.com/*", "file:///*"],
-    "web_accessible_resources": ["sidebysidecolab.css"],
+    "permissions": ["tabs", "activeTab"],
+    "host_permissions": ["*://colab.research.google.com/*", "file:///*"],
+    "web_accessible_resources": [
+    {"resources": ["sidebysidecolab.css"],
+      "matches": ["*://*/*"]}],
     "content_scripts": [
         {
           "matches": ["*://colab.research.google.com/*", "file:///*"],
@@ -12,5 +15,5 @@
         }
     ],
     "browser_action": {},
-    "manifest_version": 2
+    "manifest_version": 3
 }
